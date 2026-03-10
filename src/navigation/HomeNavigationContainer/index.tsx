@@ -153,7 +153,7 @@ const getTabStyles = (colors: AppColors, insets: any) =>
       justifyContent: 'center',
       alignItems: 'center',
       paddingVertical: 5,
-      flex: 1, // ✅ This ensures even space across all tab items
+      flex: 1,
     },
   });
 
@@ -174,10 +174,10 @@ const BottomTabNavigator = () => {
 
   const getIconName = (routeName: string): string => {
     if (routeName === SCREEN.HOME_SCREEN) return 'home';
-    if (routeName === SCREEN.WORK_ORDER_SCREEN) return 'document-text';
-    if (routeName === SCREEN.PARTS_SCREEN) return 'cube';
-    if (routeName === SCREEN.ASSETS_SCREEN) return 'business';
-    if (routeName === SCREEN.MORE_DETAILS) return 'ellipsis-horizontal';
+    if (routeName === SCREEN.STEPS_SCREEN) return 'walk-outline';
+    if (routeName === SCREEN.WATER_SCREEN) return 'water-outline';
+    if (routeName === SCREEN.MEALS_SCREEN) return 'restaurant-outline';
+    if (routeName === SCREEN.RANKS_SCREEN) return 'trophy-outline';
     return 'home';
   };
 

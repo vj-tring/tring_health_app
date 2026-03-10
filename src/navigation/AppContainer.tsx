@@ -1,24 +1,56 @@
 import React, {useEffect, useState} from 'react';
 import AuthNavigationContainer from './AuthNavigationContainer';
+import HomeNavigationContainer from './HomeNavigationContainer';
 import Splash from '../screens/Splash';
+import {
+  getAyncStorageData,
+  storeAyncStorageData,
+} from '../services/AsyncStorage';
+import {ASYNC_STORAGE_KEY} from '../services/AsyncStorage/keys';
 
 const AppContainer = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Simple splash delay to show the logo briefly on startup
+  // On app start, read login state from AsyncStorage
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 800);
-    return () => clearTimeout(timer);
+    const bootstrap = async () => {
+      try {
+        const storedFlag = await getAyncStorageData(
+          ASYNC_STORAGE_KEY.USER_LOGGED_IN,
+        );
+        setIsLoggedIn(storedFlag === 'true');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    bootstrap();
   }, []);
+
+  const handleLoginSuccess = async () => {
+    try {
+      await storeAyncStorageData(ASYNC_STORAGE_KEY.USER_LOGGED_IN, 'true');
+      setIsLoggedIn(true);
+    } catch {
+      setIsLoggedIn(true);
+    }
+  };
 
   if (isLoading) {
     return <Splash />;
   }
 
-  // For now we always start in the auth stack; login/reset/otp/update flows are hardcoded
-  return <AuthNavigationContainer showOnboarding={false} />;
+  if (isLoggedIn) {
+    return <HomeNavigationContainer />;
+  }
+
+  return (
+    <AuthNavigationContainer
+      showOnboarding={false}
+      onLoginSuccess={handleLoginSuccess}
+    />
+  );
 };
 
 export default AppContainer;

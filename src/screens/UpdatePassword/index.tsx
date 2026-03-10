@@ -15,6 +15,7 @@ import {strings} from '../../constants/strings';
 import {verticalScale} from '../../constants/fonts';
 import {useTheme} from '../../utils/themeProvider';
 import createStyles from './styles';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const UpdatePassword = () => {
   const {colors} = useTheme();
@@ -72,8 +73,8 @@ const UpdatePassword = () => {
                 style={styles.backButton}
                 onPress={() => navigation.goBack()}
                 hitSlop={{top: 12, bottom: 12, left: 12, right: 12}}>
-                <Text style={styles.backButtonText}>←</Text>
-              </TouchableOpacity>
+                <Ionicons name="arrow-back-outline" color={colors.text} size={20} />
+                </TouchableOpacity>
               <Text style={styles.headerTitle}>Create new password</Text>
               <View style={styles.headerSpacer} />
             </View>

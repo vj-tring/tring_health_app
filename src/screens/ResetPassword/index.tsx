@@ -72,7 +72,7 @@ const ResetPassword = () => {
                 style={styles.backButton}
                 onPress={() => navigation.goBack()}
                 hitSlop={{top: 12, bottom: 12, left: 12, right: 12}}>
-               <Ionicons name="arrow-back-outline" color="#ff0000" size={20} />
+               <Ionicons name="arrow-back-outline" color={colors.text} size={20} />
               </TouchableOpacity>
               <Text style={styles.headerTitle}>Forgot Password</Text>
               <View style={styles.headerSpacer} />

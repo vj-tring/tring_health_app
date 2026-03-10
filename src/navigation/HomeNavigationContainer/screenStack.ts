@@ -1,27 +1,30 @@
 
 
+import type {ComponentType} from 'react';
 import SCREEN from '../screenNames';
 import * as Screens from '../../screens';
 
+export type StackScreenConfig = {
+  name: string;
+  component: ComponentType<any>;
+};
+
 // Bottom Tab Screens - Main navigation (appears in bottom tabs)
-export const BottomTabStack = [
-  // {
-  //   name: SCREEN.HOME_SCREEN,
-  //   component: Screens.HomeScreen,
-  // },
+export const BottomTabStack: StackScreenConfig[] = [
+  {name: SCREEN.HOME_SCREEN, component: Screens.HomeScreen},
+  {name: SCREEN.STEPS_SCREEN, component: Screens.StepsScreen},
+  {name: SCREEN.WATER_SCREEN, component: Screens.WaterScreen},
+  {name: SCREEN.MEALS_SCREEN, component: Screens.MealsScreen},
+  {name: SCREEN.RANKS_SCREEN, component: Screens.RanksScreen},
 ];
 
 // Drawer Screens - Only these appear in drawer menu
-export const DrawerStack = [
+export const DrawerStack: StackScreenConfig[] = [
   // {name: SCREEN.ACCOUNT_INFO, component: Screens.AccountInfoScreen},
-  // {
-  //   name: SCREEN.PROFILE_SCREEN,
-  //   component: Screens.ProfileScreen,
-  // },
 ];
 
 // Stack-only Screens - All other screens that are not in BottomTabStack or DrawerStack
-export const StackStack = [
+export const StackStack: StackScreenConfig[] = [
 
 ];
 

@@ -4,6 +4,7 @@ import React from 'react';
 import {View, StyleSheet, ViewStyle, StyleProp} from 'react-native';
 import {lightColors, sharedShadow} from '../../constants';
 import {horizontalScale, verticalScale} from '../../constants/fonts';
+import { useTheme } from '../../utils/themeProvider';
 
 // Define the props interface for the CustomCard component
 type Props = {
@@ -13,21 +14,21 @@ type Props = {
 };
 
 // Main CustomCard component
-const CustomCard: React.FC<Props> = ({children, style, elevation = 0}) => (
+const CustomCard: React.FC<Props> = ({children, style, elevation = 0}) =>
+   {
+  const {colors} = useTheme();
   // Card container with combined styles and elevation
-  <View style={[styles.card, {elevation}, style]}>{children}</View>
-);
+  return <View style={[styles.card,{backgroundColor: colors.primary}, {elevation}, style]}>{children}</View>
+};
 
 // Styles for the CustomCard component
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#fff', // White background
-    borderRadius: 12, // Rounded corners
+    marginHorizontal: horizontalScale(16),
+    borderRadius: 16, // Rounded corners
     padding: horizontalScale(16), // Internal padding
     ...sharedShadow,
-    marginVertical: verticalScale(8), // Vertical margin
-    borderWidth: 1,
-    borderColor: lightColors.border,
+    marginBottom: verticalScale(18), // Vertical margin
   },
 });
 

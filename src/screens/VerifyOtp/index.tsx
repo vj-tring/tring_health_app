@@ -17,6 +17,7 @@ import {strings} from '../../constants/strings';
 import {useTheme} from '../../utils/themeProvider';
 import {verticalScale} from '../../constants/fonts';
 import createStyles from './styles';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const VerifyOtp = () => {
   const {colors} = useTheme();
@@ -137,7 +138,7 @@ const VerifyOtp = () => {
                 style={styles.backButton}
                 onPress={() => navigation.goBack()}
                 hitSlop={{top: 12, bottom: 12, left: 12, right: 12}}>
-                <Text style={styles.backButtonText}>←</Text>
+                <Ionicons name="arrow-back-outline" color={colors.text} size={20} />
               </TouchableOpacity>
               <Text style={styles.headerTitle}>Verify OTP</Text>
               <View style={styles.headerSpacer} />

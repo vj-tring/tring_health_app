@@ -23,7 +23,7 @@ const createStyles = (colors: AppColors) => {
       alignItems: 'center',
       paddingTop: verticalScale(48),
       paddingBottom: verticalScale(20),
-      paddingHorizontal: horizontalScale(20),
+      paddingHorizontal: horizontalScale(16),
     },
     backButton: {
       paddingVertical: verticalScale(8),
@@ -51,7 +51,7 @@ const createStyles = (colors: AppColors) => {
     contentCard: {
       backgroundColor: colors.white,
       borderRadius: 24,
-      marginHorizontal: horizontalScale(20),
+      marginHorizontal: horizontalScale(16),
       paddingHorizontal: horizontalScale(20),
       paddingTop: verticalScale(24),
       paddingBottom: verticalScale(24),

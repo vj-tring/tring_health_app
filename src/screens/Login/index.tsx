@@ -1,5 +1,5 @@
-import { useNavigation } from '@react-navigation/native';
-import React, { useEffect, useState } from 'react';
+import {useNavigation} from '@react-navigation/native';
+import React, {useEffect, useState} from 'react';
 import {
   Keyboard,
   ScrollView,
@@ -11,9 +11,9 @@ import LinearGradient from 'react-native-linear-gradient';
 import Logo from '../../assets/images/logo.svg';
 import { CustomButton } from '../../components';
 import CountryFlag from '../../components/CountryFlag';
-import { horizontalScale, verticalScale } from '../../constants/fonts';
+import {horizontalScale, verticalScale} from '../../constants/fonts';
 import SCREEN from '../../navigation/screenNames';
-import { showToast } from '../../utils/toastConfig';
+import {showToast} from '../../utils/toastConfig';
 // Import styles and custom components
 import CustomKeyboardAwareScreen from '../../components/CustomKeyboardView';
 import { ButtonLoader } from '../../components/CustomLoader';
@@ -26,7 +26,11 @@ import AuthBackground from '../../components/AuthBackground';
 import CountryPickerModal from './CountryPickerModal';
 import createStyles from './styles';
 
-const LoginScreen = () => {
+type LoginScreenProps = {
+  onLoginSuccess?: () => void;
+};
+
+const LoginScreen: React.FC<LoginScreenProps> = ({onLoginSuccess}) => {
   const {colors} = useTheme();
   const styles = createStyles(colors);
   // State management for form inputs and loading state
@@ -93,8 +97,8 @@ const LoginScreen = () => {
     // Simulate async login delay
     setTimeout(() => {
       setLoading(false);
-      // In hardcoded mode we simply navigate to the main app
-      navigation.navigate(SCREEN.HOME_SCREEN as never);
+      // Let the parent AppContainer switch to the Home navigator
+      onLoginSuccess?.();
     }, 800);
   };
 

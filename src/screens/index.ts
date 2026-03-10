@@ -5,3 +5,8 @@ export {default as VerifyOtp} from './VerifyOtp';
 export {default as SplashScreen} from './Splash';
 export {default as UpdatePassword} from './UpdatePassword';
 export {default as NoInternetScreen} from './NoInternetScreen';
+export {default as HomeScreen} from './Home';
+export {default as StepsScreen} from './Steps';
+export {default as WaterScreen} from './Water';
+export {default as MealsScreen} from './Meals';
+export {default as RanksScreen} from './Ranks';

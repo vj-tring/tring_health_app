@@ -1,6 +1,6 @@
 
 
-import React, {ReactNode} from 'react';
+import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import Svg, {Circle} from 'react-native-svg';
 import {useTheme} from '../../utils/themeProvider';
@@ -14,7 +14,6 @@ interface CustomProgressBarProps {
   textStyle?: any;
   progressColor?: string;
   backgroundColor?: string;
-  centerContent?: ReactNode;
 }
 
 const CustomProgressBar: React.FC<CustomProgressBarProps> = ({
@@ -25,7 +24,6 @@ const CustomProgressBar: React.FC<CustomProgressBarProps> = ({
   textStyle,
   progressColor,
   backgroundColor,
-  centerContent,
 }) => {
   const {colors} = useTheme();
   const typography = createTypographyStyles(colors);
@@ -66,17 +64,12 @@ const CustomProgressBar: React.FC<CustomProgressBarProps> = ({
         />
       </Svg>
 
-      {(showPercentage || centerContent) && (
-        <View
-          style={[styles.percentageContainer, {width: size, height: size}]}>
-          {centerContent ? (
-            centerContent
-          ) : (
-            <Text
-              style={[typography.valueLarge, styles.percentageText, textStyle]}>
-              {Math.round(percentage)}%
-            </Text>
-          )}
+      {showPercentage && (
+        <View style={[styles.percentageContainer, {width: size, height: size}]}>
+          <Text
+            style={[typography.valueLarge, styles.percentageText, textStyle]}>
+            {Math.round(percentage)}%
+          </Text>
         </View>
       )}
     </View>
