@@ -1,25 +1,14 @@
-
-
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
-import {
-  Dimensions,
-  Platform,
-  StyleSheet,
-  View,
-} from 'react-native';
+import { Dimensions, Platform, StyleSheet, View } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { AppColors } from '../../constants/colors';
-import {
-  fontMedium,
-  fonts,
-  verticalScale,
-} from '../../constants/fonts';
-import {CustomDrawerContent} from '../../components';
+import { fontMedium, fonts, verticalScale } from '../../constants/fonts';
+import { CustomDrawerContent } from '../../components';
 import { useNetworkStatus } from '../../hooks/useNetworkStatus';
 import * as Screens from '../../screens';
 import { useTheme } from '../../utils/themeProvider';
@@ -55,15 +44,15 @@ export function onNavigationStateChange() {
 }
 
 const HomeNavigationContainer = () => {
-
   return (
     <NavigationContainer
       ref={navigationRef}
       onStateChange={() => {
         onNavigationStateChange();
       }}
-      onReady={() => {}}>
-      <Stack.Navigator screenOptions={{headerShown: false}}>
+      onReady={() => {}}
+    >
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen
           name={'HomeDrawerNavigator'}
           component={HomeDrawerNavigator}
@@ -92,11 +81,12 @@ const HomeDrawerNavigator = () => {
         },
         headerShown: false,
       }}
-      drawerContent={props => <CustomDrawerContent {...props} />}>
+      drawerContent={props => <CustomDrawerContent {...props} />}
+    >
       <Drawer.Screen
         name="BottomTabNavigator"
         component={BottomTabNavigator}
-        options={{headerShown: false}}
+        options={{ headerShown: false }}
       />
       {/* Drawer screens - NO NETWORK HANDLING */}
       {DrawerStack.map((screen, index) => (
@@ -104,14 +94,14 @@ const HomeDrawerNavigator = () => {
           key={index}
           name={screen.name}
           component={screen.component}
-          options={{headerShown: false}}
+          options={{ headerShown: false }}
         />
       ))}
     </Drawer.Navigator>
   );
 };
 
-const {width} = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
 const getTabStyles = (colors: AppColors, insets: any) =>
   StyleSheet.create({
@@ -125,7 +115,7 @@ const getTabStyles = (colors: AppColors, insets: any) =>
     },
     activeIconShadow: {
       shadowColor: colors.primary,
-      shadowOffset: {width: 0, height: 2},
+      shadowOffset: { width: 0, height: 2 },
       shadowOpacity: 0.18,
       shadowRadius: 4,
       elevation: 6,
@@ -158,10 +148,10 @@ const getTabStyles = (colors: AppColors, insets: any) =>
   });
 
 const BottomTabNavigator = () => {
-  const {colors} = useTheme();
+  const { colors } = useTheme();
   const insets = useSafeAreaInsets();
   const styles = getTabStyles(colors, insets);
-  const {refreshNetworkStatus} = useNetworkStatus();
+  const { refreshNetworkStatus } = useNetworkStatus();
 
   // stable handleRetry so memoization/render-prop usage doesn't change identity unnecessarily
   const handleRetry = React.useCallback(async () => {
@@ -214,7 +204,7 @@ const BottomTabNavigator = () => {
             }
           },
         }}
-        screenOptions={({route}) => ({
+        screenOptions={({ route }) => ({
           headerShown: false,
           tabBarShowLabel: true,
           tabBarActiveTintColor: colors.primary,
@@ -222,14 +212,12 @@ const BottomTabNavigator = () => {
           tabBarStyle: styles.tabBar,
           tabBarItemStyle: styles.tabBarItem,
           tabBarLabelPosition: 'below-icon',
-          tabBarIcon: ({focused, size, color}) =>
+          tabBarIcon: ({ focused, size, color }) =>
             renderIcon(route.name, focused, size, color),
-        })}>
+        })}
+      >
         {BottomTabStack.map((screen, index) => (
-          <Tab.Screen
-            key={index}
-            name={screen.name}
-            options={{}}>
+          <Tab.Screen key={index} name={screen.name} options={{}}>
             {props => <screen.component {...props} key={index} />}
           </Tab.Screen>
         ))}

@@ -1,10 +1,8 @@
-
-
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import SCREEN from '../screenNames';
-import {navigationRef} from '../utils';
+import { navigationRef } from '../utils';
 import AuthScreenStack from './screenStack';
 
 type AuthNavigationStackProps = {
@@ -22,10 +20,12 @@ const AuthNavigationStack: React.FC<AuthNavigationStackProps> = ({
     <NavigationContainer
       ref={navigationRef}
       onStateChange={state => {}}
-      onReady={() => {}}>
+      onReady={() => {}}
+    >
       <Stack.Navigator
-        screenOptions={{headerShown: false}}
-        initialRouteName={SCREEN.LOGIN_SCREEN}>
+        screenOptions={{ headerShown: false }}
+        initialRouteName={SCREEN.LOGIN_SCREEN}
+      >
         {AuthScreenStack.map((screen, index) => {
           const ScreenComponent = screen.component as React.ComponentType<any>;
           return (
@@ -34,7 +34,8 @@ const AuthNavigationStack: React.FC<AuthNavigationStackProps> = ({
               key={index}
               options={{
                 gestureEnabled: true,
-              }}>
+              }}
+            >
               {props => (
                 <ScreenComponent {...props} onLoginSuccess={onLoginSuccess} />
               )}

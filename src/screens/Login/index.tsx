@@ -1,5 +1,5 @@
-import {useNavigation} from '@react-navigation/native';
-import React, {useEffect, useState} from 'react';
+import { useNavigation } from '@react-navigation/native';
+import React, { useEffect, useState } from 'react';
 import {
   Keyboard,
   ScrollView,
@@ -11,9 +11,9 @@ import LinearGradient from 'react-native-linear-gradient';
 import Logo from '../../assets/images/logo.svg';
 import { CustomButton } from '../../components';
 import CountryFlag from '../../components/CountryFlag';
-import {horizontalScale, verticalScale} from '../../constants/fonts';
+import { horizontalScale, verticalScale } from '../../constants/fonts';
 import SCREEN from '../../navigation/screenNames';
-import {showToast} from '../../utils/toastConfig';
+import { showToast } from '../../utils/toastConfig';
 // Import styles and custom components
 import CustomKeyboardAwareScreen from '../../components/CustomKeyboardView';
 import { ButtonLoader } from '../../components/CustomLoader';
@@ -30,8 +30,8 @@ type LoginScreenProps = {
   onLoginSuccess?: () => void;
 };
 
-const LoginScreen: React.FC<LoginScreenProps> = ({onLoginSuccess}) => {
-  const {colors} = useTheme();
+const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
+  const { colors } = useTheme();
   const styles = createStyles(colors);
   // State management for form inputs and loading state
   const [email, setEmail] = useState('');
@@ -90,7 +90,10 @@ const LoginScreen: React.FC<LoginScreenProps> = ({onLoginSuccess}) => {
 
     if (!hasBasicInput) {
       setLoading(false);
-      showToast({message: 'Please enter required credentials', position: 'top'});
+      showToast({
+        message: 'Please enter required credentials',
+        position: 'top',
+      });
       return;
     }
 
@@ -117,151 +120,163 @@ const LoginScreen: React.FC<LoginScreenProps> = ({onLoginSuccess}) => {
   );
 
   return (
-      <>
+    <>
       <AuthBackground />
-    <CustomKeyboardAwareScreen backgroundColor="transparent">
-      <View style={styles.mainView}>
-        <ScrollView
-          style={styles.screenWrap}
-          contentContainerStyle={{flexGrow: 1, paddingBottom: verticalScale(24)}}
-          keyboardShouldPersistTaps="handled"
-          showsVerticalScrollIndicator={false}>
-          {/* Logo and header text on background (outside card) */}
-          <View
-            style={[
-              styles.headerOverCard,
-              !isKeyboardVisible && {paddingTop: verticalScale(48)},
-            ]}>
-            <View style={styles.text_logo}>
-              <Logo width={72} height={72} />
-            </View>
-            <Text style={styles.cardTitle}>Welcome to Tring Health</Text>
-            <Text style={styles.cardSubtitle}>
-              Sign in to your account to continue
-            </Text>
-          </View>
-
-          {/* White content card */}
-          <View style={styles.contentCard}>
-            <View style={styles.formContainerInCard}>
-              {loginWithPhone ? (
-                <>
-                  <CustomInput
-                    label={strings.login.phone_number_label}
-                    value={phone}
-                    onChangeText={setPhone}
-                    keyboardType="phone-pad"
-                    inputContainerStyle={styles.inputContainerStyle}
-                    leftIcon={
-                      selectedCountry ? (
-                        <TouchableOpacity
-                          onPress={() => setCountryModalVisible(true)}
-                          style={styles.countryFlagContainer}>
-                          <CountryFlag
-                            isoCode={selectedCountry.isoCode}
-                            size={19}
-                            style={styles.countryFlagMargin}
-                          />
-                          <Text style={[styles.inputText, styles.chevronDown]}>
-                            ▼
-                          </Text>
-                          <Text style={styles.inputText}>
-                            {selectedCountry.dialCode}
-                          </Text>
-                        </TouchableOpacity>
-                      ) : null
-                    }
-                  />
-                  <CustomModal
-                    visible={countryModalVisible}
-                    onRequestClose={() => setCountryModalVisible(false)}>
-                    <CountryPickerModal
-                      visible={countryModalVisible}
-                      countries={filteredCountries}
-                      searchValue={countrySearch}
-                      onSearch={setCountrySearch}
-                      onSelect={item => {
-                        setSelectedCountry(item);
-                        setCountryModalVisible(false);
-                      }}
-                      onRequestClose={() => setCountryModalVisible(false)}
-                    />
-                  </CustomModal>
-                </>
-              ) : (
-                <CustomInput
-                  label={strings.login.email}
-                  value={email}
-                  onChangeText={setEmail}
-                  keyboardType="email-address"
-                  inputContainerStyle={styles.inputContainerStyle}
-                />
-              )}
-
-              <CustomInput
-                label={strings.login.password}
-                value={password}
-                onChangeText={setPassword}
-                secureTextEntry
-                inputContainerStyle={styles.inputContainerStyle}
-              />
-
-              <Text
-                style={[styles.forgotTxt, {alignSelf: 'flex-end'}]}
-                onPress={handleResetPassword}>
-                {strings.login.forgot_password}
+      <CustomKeyboardAwareScreen backgroundColor="transparent">
+        <View style={styles.mainView}>
+          <ScrollView
+            style={styles.screenWrap}
+            contentContainerStyle={{
+              flexGrow: 1,
+              paddingBottom: verticalScale(24),
+            }}
+            keyboardShouldPersistTaps="handled"
+            showsVerticalScrollIndicator={false}
+          >
+            {/* Logo and header text on background (outside card) */}
+            <View
+              style={[
+                styles.headerOverCard,
+                !isKeyboardVisible && { paddingTop: verticalScale(48) },
+              ]}
+            >
+              <View style={styles.text_logo}>
+                <Logo width={72} height={72} />
+              </View>
+              <Text style={styles.cardTitle}>Welcome to Tring Health</Text>
+              <Text style={styles.cardSubtitle}>
+                Sign in to your account to continue
               </Text>
             </View>
 
-            <View style={styles.buttonContainerInCard}>
-              {loading || subscriptionLoading ? (
-                <ButtonLoader size="small" />
-              ) : (
-                <CustomButton
-                title={strings.login.sign_in}
-                onPress={handleLogin}
-                disabled={isButtonDisabled}
-              />
-              )}
+            {/* White content card */}
+            <View style={styles.contentCard}>
+              <View style={styles.formContainerInCard}>
+                {loginWithPhone ? (
+                  <>
+                    <CustomInput
+                      label={strings.login.phone_number_label}
+                      value={phone}
+                      onChangeText={setPhone}
+                      keyboardType="phone-pad"
+                      inputContainerStyle={styles.inputContainerStyle}
+                      leftIcon={
+                        selectedCountry ? (
+                          <TouchableOpacity
+                            onPress={() => setCountryModalVisible(true)}
+                            style={styles.countryFlagContainer}
+                          >
+                            <CountryFlag
+                              isoCode={selectedCountry.isoCode}
+                              size={19}
+                              style={styles.countryFlagMargin}
+                            />
+                            <Text
+                              style={[styles.inputText, styles.chevronDown]}
+                            >
+                              ▼
+                            </Text>
+                            <Text style={styles.inputText}>
+                              {selectedCountry.dialCode}
+                            </Text>
+                          </TouchableOpacity>
+                        ) : null
+                      }
+                    />
+                    <CustomModal
+                      visible={countryModalVisible}
+                      onRequestClose={() => setCountryModalVisible(false)}
+                    >
+                      <CountryPickerModal
+                        visible={countryModalVisible}
+                        countries={filteredCountries}
+                        searchValue={countrySearch}
+                        onSearch={setCountrySearch}
+                        onSelect={item => {
+                          setSelectedCountry(item);
+                          setCountryModalVisible(false);
+                        }}
+                        onRequestClose={() => setCountryModalVisible(false)}
+                      />
+                    </CustomModal>
+                  </>
+                ) : (
+                  <CustomInput
+                    label={strings.login.email}
+                    value={email}
+                    onChangeText={setEmail}
+                    keyboardType="email-address"
+                    inputContainerStyle={styles.inputContainerStyle}
+                  />
+                )}
 
-              <View style={styles.dividerContainer}>
-                <View style={styles.dividerLine} />
-                <Text style={styles.dividerText}>
-                  {strings.login.alternative_access}
+                <CustomInput
+                  label={strings.login.password}
+                  value={password}
+                  onChangeText={setPassword}
+                  secureTextEntry
+                  inputContainerStyle={styles.inputContainerStyle}
+                />
+
+                <Text
+                  style={[styles.forgotTxt, { alignSelf: 'flex-end' }]}
+                  onPress={handleResetPassword}
+                >
+                  {strings.login.forgot_password}
                 </Text>
-                <View style={styles.dividerLine} />
               </View>
 
-              <CustomButton
-                title={
-                  loginWithPhone
-                    ? strings.login.continue_email
-                    : strings.login.continue_phone
-                }
-                onPress={() => setLoginWithPhone(prev => !prev)}
-                buttonStyle={[styles.buttonPhone, styles.secondaryButtonStyle]}
-                textStyle={styles.phonetxt}
-              />
+              <View style={styles.buttonContainerInCard}>
+                {loading || subscriptionLoading ? (
+                  <ButtonLoader size="small" />
+                ) : (
+                  <CustomButton
+                    title={strings.login.sign_in}
+                    onPress={handleLogin}
+                    disabled={isButtonDisabled}
+                  />
+                )}
 
-              <View style={styles.signupContainer}>
-                <Text style={styles.signupText}>
-                  {strings.login.dont_have_account}{' '}
-                </Text>
-                <TouchableOpacity
-                  onPress={() =>
-                    navigation.navigate(SCREEN.SIGN_UP as never)
-                  }
-                  activeOpacity={0.7}>
-                  <Text style={styles.signupLink}>
-                    {strings.login.sign_up}
+                <View style={styles.dividerContainer}>
+                  <View style={styles.dividerLine} />
+                  <Text style={styles.dividerText}>
+                    {strings.login.alternative_access}
                   </Text>
-                </TouchableOpacity>
+                  <View style={styles.dividerLine} />
+                </View>
+
+                <CustomButton
+                  title={
+                    loginWithPhone
+                      ? strings.login.continue_email
+                      : strings.login.continue_phone
+                  }
+                  onPress={() => setLoginWithPhone(prev => !prev)}
+                  buttonStyle={[
+                    styles.buttonPhone,
+                    styles.secondaryButtonStyle,
+                  ]}
+                  textStyle={styles.phonetxt}
+                />
+
+                <View style={styles.signupContainer}>
+                  <Text style={styles.signupText}>
+                    {strings.login.dont_have_account}{' '}
+                  </Text>
+                  <TouchableOpacity
+                    onPress={() => navigation.navigate(SCREEN.SIGN_UP as never)}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={styles.signupLink}>
+                      {strings.login.sign_up}
+                    </Text>
+                  </TouchableOpacity>
+                </View>
               </View>
             </View>
-          </View>
-        </ScrollView>
-      </View>
-    </CustomKeyboardAwareScreen>
+          </ScrollView>
+        </View>
+      </CustomKeyboardAwareScreen>
     </>
   );
 };

@@ -67,7 +67,7 @@ export const lightColors: AppColors = {
   yellow: '#FFE923',
   green: '#28A745',
   lightYellow: '#FFE923',
-  lightPrimary: '#FFF1E9', // Light blue for primary
+  lightPrimary: '#C7D2FE', // Light purple for primary (e.g. rank card inset)
   lightYellowBg: '#FFFDE7', // Light yellow for yellow
   lightSecondary: '#E1F5FE', // Light cyan for secondary
   lightGreen: '#E8F5E9', // Light green for green
@@ -110,7 +110,7 @@ export const darkColors: AppColors = {
   yellow: '#FFE923',
   green: '#28A745',
   lightYellow: '#FFE923',
-  lightPrimary: '#FFF1E9',
+  lightPrimary: '#818CF8',
   lightYellowBg: '#FFFDE7', // Light yellow for yellow
   lightSecondary: '#E1F5FE', // Light cyan for secondary
   lightGreen: '#E8F5E9', // Light green for green

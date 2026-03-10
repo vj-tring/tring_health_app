@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import AuthNavigationContainer from './AuthNavigationContainer';
 import HomeNavigationContainer from './HomeNavigationContainer';
 import Splash from '../screens/Splash';
@@ -6,7 +6,7 @@ import {
   getAyncStorageData,
   storeAyncStorageData,
 } from '../services/AsyncStorage';
-import {ASYNC_STORAGE_KEY} from '../services/AsyncStorage/keys';
+import { ASYNC_STORAGE_KEY } from '../services/AsyncStorage/keys';
 
 const AppContainer = () => {
   const [isLoading, setIsLoading] = useState(true);

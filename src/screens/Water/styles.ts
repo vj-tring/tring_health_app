@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import type { AppColors } from '../../constants/colors';
+import {StyleSheet} from 'react-native';
+import type {AppColors} from '../../constants/colors';
 import {
   fontMedium,
   fontRegular,
@@ -14,33 +14,6 @@ const createStyles = (colors: AppColors) => {
     container: {
       flex: 1,
       backgroundColor: colors.veryLightGray,
-    },
-    header: {
-      backgroundColor: colors.primary,
-      paddingTop: verticalScale(44),
-      paddingBottom: verticalScale(24),
-      paddingHorizontal: horizontalScale(16),
-      borderBottomRightRadius: 24,
-    },
-    headerRow: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-    },
-    headerTextWrap: {
-      flex: 1,
-    },
-    headerTitle: {
-      fontSize: fonts.font22,
-      fontFamily: fontSemiBold,
-      color: colors.white,
-      marginBottom: verticalScale(2),
-    },
-    headerSubtitle: {
-      fontSize: fonts.font14,
-      fontFamily: fontRegular,
-      color: colors.white,
-      opacity: 0.95,
     },
     scrollContent: {
       paddingBottom: verticalScale(100),
@@ -69,7 +42,7 @@ const createStyles = (colors: AppColors) => {
       paddingBottom: verticalScale(18),
       marginBottom: verticalScale(20),
       shadowColor: '#000',
-      shadowOffset: { width: 0, height: 4 },
+      shadowOffset: {width: 0, height: 4},
       shadowOpacity: 0.12,
       shadowRadius: 12,
       elevation: 6,
@@ -146,47 +119,29 @@ const createStyles = (colors: AppColors) => {
       color: colors.text,
       marginBottom: verticalScale(12),
     },
+    glassesGrid: {
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      justifyContent: 'space-between',
+      marginBottom: verticalScale(12),
+    },
+    glassTile: {
+      width: '22%',
+      aspectRatio: 1,
+      borderRadius: 12,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginBottom: verticalScale(12),
+      paddingVertical: verticalScale(8),
+      backgroundColor: colors.veryLightGray,
+    },
+    glassTileFilled: {
+      backgroundColor: colors.primary,
+    },
     logRow: {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-    },
-    logInput: {
-      flex: 1,
-    },
-    miniCardsRow: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      paddingHorizontal: horizontalScale(16),
-      marginBottom: verticalScale(24),
-      gap: horizontalScale(12),
-    },
-    miniCard: {
-      flex: 1,
-      backgroundColor: colors.white,
-      borderRadius: 16,
-      paddingHorizontal: horizontalScale(16),
-      paddingVertical: verticalScale(14),
-    },
-    miniLabel: {
-      fontSize: fonts.font12,
-      fontFamily: fontRegular,
-      color: colors.plainGrey,
-      marginBottom: verticalScale(4),
-    },
-    miniValue: {
-      fontSize: fonts.font20,
-      fontFamily: fontSemiBold,
-      color: colors.text,
-      marginBottom: verticalScale(2),
-    },
-    miniSubtext: {
-      fontSize: fonts.font11,
-      fontFamily: fontRegular,
-      color: colors.plainGrey,
-    },
-    logInputContainer: {
-      width: '73%',
     },
     removeButton: {
       backgroundColor: colors.white,
@@ -196,7 +151,39 @@ const createStyles = (colors: AppColors) => {
     removeButtonText: {
       color: colors.primary,
     },
+    tipsCard: {
+      backgroundColor: '#E6F4FF',
+      borderRadius: 20,
+      marginHorizontal: horizontalScale(16),
+      paddingHorizontal: horizontalScale(16),
+      paddingTop: verticalScale(18),
+      paddingBottom: verticalScale(18),
+      marginBottom: verticalScale(24),
+    },
+    tipsTitle: {
+      fontSize: fonts.font16,
+      fontFamily: fontSemiBold,
+      color: colors.text,
+      marginBottom: verticalScale(12),
+    },
+    tipRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: verticalScale(6),
+    },
+    tipIcon: {
+      fontSize: fonts.font16,
+      marginRight: horizontalScale(8),
+    },
+    tipText: {
+      fontSize: fonts.font14,
+      fontFamily: fontRegular,
+      color: colors.text,
+      flex: 1,
+      flexWrap: 'wrap',
+    },
   });
 };
 
 export default createStyles;
+

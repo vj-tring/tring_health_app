@@ -1,5 +1,3 @@
-
-
 // Import React and necessary React Native components
 import React from 'react';
 import {
@@ -17,7 +15,7 @@ import {
   horizontalScale,
   verticalScale,
 } from '../../constants/fonts';
-import {useTheme} from '../../utils/themeProvider';
+import { useTheme } from '../../utils/themeProvider';
 
 // Define the props interface for the CustomButton component
 interface CustomButtonProps {
@@ -36,22 +34,23 @@ const CustomButton: React.FC<CustomButtonProps> = ({
   textStyle,
   disabled = false, // Default disabled state to false
 }) => {
-  const {colors} = useTheme();
+  const { colors } = useTheme();
   return (
     // TouchableOpacity provides touch feedback and handles press events
     <TouchableOpacity
       // Combine default styles with custom styles and disabled state
       style={[
         styles.button,
-        {backgroundColor: colors.primary},
+        { backgroundColor: colors.primary },
         disabled && styles.disabledButton,
         buttonStyle,
       ]}
       onPress={onPress}
       activeOpacity={0.7} // Set opacity when button is pressed
-      disabled={disabled}>
+      disabled={disabled}
+    >
       {/* Button text with combined styles */}
-      <Text style={[styles.buttonText, {color: colors.white}, textStyle]}>
+      <Text style={[styles.buttonText, { color: colors.white }, textStyle]}>
         {title}
       </Text>
     </TouchableOpacity>
@@ -61,7 +60,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
 // Define the component styles
 const styles = StyleSheet.create({
   button: {
-    paddingVertical: verticalScale(12), // Responsive vertical padding
+    paddingVertical: verticalScale(10), // Responsive vertical padding
     paddingHorizontal: horizontalScale(16), // Responsive horizontal padding
     borderRadius: 14, // Rounded corners
     alignItems: 'center', // Center content horizontally
