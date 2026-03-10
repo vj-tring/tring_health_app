@@ -1,32 +1,34 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import {StatusBar, useColorScheme} from 'react-native';
+import React, {useEffect, useState} from 'react';
 import {Provider} from 'react-redux';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {PersistGate} from 'redux-persist/integration/react';
+import {persistor, store} from './src/store';
+import ThemeProvider from './src/utils/themeProvider';
+import CustomErrorBoundary from './src/components/CustomErrorBoundary';
+import AppContainer from './src/navigation/AppContainer';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import Toast from 'react-native-toast-message';
+import {toastConfig} from './src/utils/toastConfig';
 
-import {store} from './src/store';
-import {LoginScreen} from './src/screens';
+if (__DEV__) {
+  require('./ReactotronConfig');
+}
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+const App = () => {
 
   return (
-    <Provider store={store}>
-      <SafeAreaProvider>
-        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-        <AppContent />
-      </SafeAreaProvider>
-    </Provider>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <ThemeProvider>
+            <CustomErrorBoundary>
+              <AppContainer />
+              <Toast config={toastConfig} topOffset={60} />
+            </CustomErrorBoundary>
+          </ThemeProvider>
+        </PersistGate>
+      </Provider>
+    </GestureHandlerRootView>
   );
-}
-
-function AppContent() {
-  return <LoginScreen />;
-}
+};
 
 export default App;

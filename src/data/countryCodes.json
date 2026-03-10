@@ -1,0 +1,1970 @@
+[
+  {
+    "name": "Afghanistan",
+    "dialCode": "+93",
+    "isoCode": "AF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/af.svg",
+    "mobileNumberLength": 12,
+    "example": "+93 123456"
+  },
+  {
+    "name": "Aland Islands",
+    "dialCode": "+358",
+    "isoCode": "AX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ax.svg",
+    "mobileNumberLength": 12,
+    "example": "+358 123456"
+  },
+  {
+    "name": "Albania",
+    "dialCode": "+355",
+    "isoCode": "AL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/al.svg",
+    "mobileNumberLength": 12,
+    "example": "+355 123456"
+  },
+  {
+    "name": "Algeria",
+    "dialCode": "+213",
+    "isoCode": "DZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dz.svg",
+    "mobileNumberLength": 12,
+    "example": "+213 123456"
+  },
+  {
+    "name": "American Samoa",
+    "dialCode": "+1684",
+    "isoCode": "AS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/as.svg",
+    "mobileNumberLength": 12,
+    "example": "+1684 1234"
+  },
+  {
+    "name": "Andorra",
+    "dialCode": "+376",
+    "isoCode": "AD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ad.svg",
+    "mobileNumberLength": 12,
+    "example": "+376 123456"
+  },
+  {
+    "name": "Angola",
+    "dialCode": "+244",
+    "isoCode": "AO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ao.svg",
+    "mobileNumberLength": 12,
+    "example": "+244 123456"
+  },
+  {
+    "name": "Anguilla",
+    "dialCode": "+1264",
+    "isoCode": "AI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ai.svg",
+    "mobileNumberLength": 12,
+    "example": "+1264 1234"
+  },
+  {
+    "name": "Antarctica",
+    "dialCode": "+672",
+    "isoCode": "AQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/aq.svg",
+    "mobileNumberLength": 12,
+    "example": "+672 123456"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "dialCode": "+1268",
+    "isoCode": "AG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ag.svg",
+    "mobileNumberLength": 12,
+    "example": "+1268 1234"
+  },
+  {
+    "name": "Argentina",
+    "dialCode": "+54",
+    "isoCode": "AR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ar.svg",
+    "mobileNumberLength": 12,
+    "example": "+54 123456"
+  },
+  {
+    "name": "Armenia",
+    "dialCode": "+374",
+    "isoCode": "AM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/am.svg",
+    "mobileNumberLength": 12,
+    "example": "+374 123456"
+  },
+  {
+    "name": "Aruba",
+    "dialCode": "+297",
+    "isoCode": "AW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/aw.svg",
+    "mobileNumberLength": 12,
+    "example": "+297 123456"
+  },
+  {
+    "name": "Ascension Island",
+    "dialCode": "+247",
+    "isoCode": "AC",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Ascension_Island.svg",
+    "mobileNumberLength": 12,
+    "example": "+247 123456"
+  },
+  {
+    "name": "Australia",
+    "dialCode": "+61",
+    "isoCode": "AU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/au.svg",
+    "mobileNumberLength": 12,
+    "example": "+61 123456"
+  },
+  {
+    "name": "Austria",
+    "dialCode": "+43",
+    "isoCode": "AT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/at.svg",
+    "mobileNumberLength": 12,
+    "example": "+43 123456"
+  },
+  {
+    "name": "Azerbaijan",
+    "dialCode": "+994",
+    "isoCode": "AZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/az.svg",
+    "mobileNumberLength": 12,
+    "example": "+994 123456"
+  },
+  {
+    "name": "Bahamas",
+    "dialCode": "+1242",
+    "isoCode": "BS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bs.svg",
+    "mobileNumberLength": 12,
+    "example": "+1242 1234"
+  },
+  {
+    "name": "Bahrain",
+    "dialCode": "+973",
+    "isoCode": "BH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bh.svg",
+    "mobileNumberLength": 12,
+    "example": "+973 123456"
+  },
+  {
+    "name": "Bangladesh",
+    "dialCode": "+880",
+    "isoCode": "BD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bd.svg",
+    "mobileNumberLength": 12,
+    "example": "+880 123456"
+  },
+  {
+    "name": "Barbados",
+    "dialCode": "+1246",
+    "isoCode": "BB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bb.svg",
+    "mobileNumberLength": 12,
+    "example": "+1246 1234"
+  },
+  {
+    "name": "Belarus",
+    "dialCode": "+375",
+    "isoCode": "BY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/by.svg",
+    "mobileNumberLength": 12,
+    "example": "+375 123456"
+  },
+  {
+    "name": "Belgium",
+    "dialCode": "+32",
+    "isoCode": "BE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/be.svg",
+    "mobileNumberLength": 12,
+    "example": "+32 123456"
+  },
+  {
+    "name": "Belize",
+    "dialCode": "+501",
+    "isoCode": "BZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bz.svg",
+    "mobileNumberLength": 12,
+    "example": "+501 123456"
+  },
+  {
+    "name": "Benin",
+    "dialCode": "+229",
+    "isoCode": "BJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bj.svg",
+    "mobileNumberLength": 12,
+    "example": "+229 123456"
+  },
+  {
+    "name": "Bermuda",
+    "dialCode": "+1441",
+    "isoCode": "BM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bm.svg",
+    "mobileNumberLength": 12,
+    "example": "+1441 1234"
+  },
+  {
+    "name": "Bhutan",
+    "dialCode": "+975",
+    "isoCode": "BT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bt.svg",
+    "mobileNumberLength": 12,
+    "example": "+975 123456"
+  },
+  {
+    "name": "Bolivia",
+    "dialCode": "+591",
+    "isoCode": "BO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bo.svg",
+    "mobileNumberLength": 12,
+    "example": "+591 123456"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "dialCode": "+387",
+    "isoCode": "BA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ba.svg",
+    "mobileNumberLength": 12,
+    "example": "+387 123456"
+  },
+  {
+    "name": "Botswana",
+    "dialCode": "+267",
+    "isoCode": "BW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bw.svg",
+    "mobileNumberLength": 12,
+    "example": "+267 123456"
+  },
+  {
+    "name": "Brazil",
+    "dialCode": "+55",
+    "isoCode": "BR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/br.svg",
+    "mobileNumberLength": 12,
+    "example": "+55 123456"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "dialCode": "+246",
+    "isoCode": "IO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/io.svg",
+    "mobileNumberLength": 12,
+    "example": "+246 123456"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "dialCode": "+673",
+    "isoCode": "BN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bn.svg",
+    "mobileNumberLength": 12,
+    "example": "+673 123456"
+  },
+  {
+    "name": "Bulgaria",
+    "dialCode": "+359",
+    "isoCode": "BG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bg.svg",
+    "mobileNumberLength": 12,
+    "example": "+359 123456"
+  },
+  {
+    "name": "Burkina Faso",
+    "dialCode": "+226",
+    "isoCode": "BF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bf.svg",
+    "mobileNumberLength": 12,
+    "example": "+226 123456"
+  },
+  {
+    "name": "Burundi",
+    "dialCode": "+257",
+    "isoCode": "BI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bi.svg",
+    "mobileNumberLength": 12,
+    "example": "+257 123456"
+  },
+  {
+    "name": "Cambodia",
+    "dialCode": "+855",
+    "isoCode": "KH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kh.svg",
+    "mobileNumberLength": 12,
+    "example": "+855 123456"
+  },
+  {
+    "name": "Cameroon",
+    "dialCode": "+237",
+    "isoCode": "CM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cm.svg",
+    "mobileNumberLength": 12,
+    "example": "+237 123456"
+  },
+  {
+    "name": "Canada",
+    "dialCode": "+1",
+    "isoCode": "CA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ca.svg",
+    "mobileNumberLength": 12,
+    "example": "+1 123456"
+  },
+  {
+    "name": "Cape Verde",
+    "dialCode": "+238",
+    "isoCode": "CV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cv.svg",
+    "mobileNumberLength": 12,
+    "example": "+238 123456"
+  },
+  {
+    "name": "Cayman Islands",
+    "dialCode": "+1345",
+    "isoCode": "KY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ky.svg",
+    "mobileNumberLength": 12,
+    "example": "+1345 1234"
+  },
+  {
+    "name": "Central African Republic",
+    "dialCode": "+236",
+    "isoCode": "CF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cf.svg",
+    "mobileNumberLength": 12,
+    "example": "+236 123456"
+  },
+  {
+    "name": "Chad",
+    "dialCode": "+235",
+    "isoCode": "TD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/td.svg",
+    "mobileNumberLength": 12,
+    "example": "+235 123456"
+  },
+  {
+    "name": "Chile",
+    "dialCode": "+56",
+    "isoCode": "CL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cl.svg",
+    "mobileNumberLength": 12,
+    "example": "+56 123456"
+  },
+  {
+    "name": "China",
+    "dialCode": "+86",
+    "isoCode": "CN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cn.svg",
+    "mobileNumberLength": 12,
+    "example": "+86 123456"
+  },
+  {
+    "name": "Christmas Island",
+    "dialCode": "+61",
+    "isoCode": "CX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cx.svg",
+    "mobileNumberLength": 12,
+    "example": "+61 123456"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "dialCode": "+61",
+    "isoCode": "CC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cc.svg",
+    "mobileNumberLength": 12,
+    "example": "+61 123456"
+  },
+  {
+    "name": "Colombia",
+    "dialCode": "+57",
+    "isoCode": "CO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/co.svg",
+    "mobileNumberLength": 12,
+    "example": "+57 123456"
+  },
+  {
+    "name": "Comoros",
+    "dialCode": "+269",
+    "isoCode": "KM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/km.svg",
+    "mobileNumberLength": 12,
+    "example": "+269 123456"
+  },
+  {
+    "name": "Congo",
+    "dialCode": "+242",
+    "isoCode": "CG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cg.svg",
+    "mobileNumberLength": 12,
+    "example": "+242 123456"
+  },
+  {
+    "name": "Cook Islands",
+    "dialCode": "+682",
+    "isoCode": "CK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ck.svg",
+    "mobileNumberLength": 12,
+    "example": "+682 123456"
+  },
+  {
+    "name": "Costa Rica",
+    "dialCode": "+506",
+    "isoCode": "CR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cr.svg",
+    "mobileNumberLength": 12,
+    "example": "+506 123456"
+  },
+  {
+    "name": "Croatia",
+    "dialCode": "+385",
+    "isoCode": "HR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hr.svg",
+    "mobileNumberLength": 12,
+    "example": "+385 123456"
+  },
+  {
+    "name": "Cuba",
+    "dialCode": "+53",
+    "isoCode": "CU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cu.svg",
+    "mobileNumberLength": 12,
+    "example": "+53 123456"
+  },
+  {
+    "name": "Cyprus",
+    "dialCode": "+357",
+    "isoCode": "CY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cy.svg",
+    "mobileNumberLength": 12,
+    "example": "+357 123456"
+  },
+  {
+    "name": "Czech Republic",
+    "dialCode": "+420",
+    "isoCode": "CZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cz.svg",
+    "mobileNumberLength": 12,
+    "example": "+420 123456"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "dialCode": "+243",
+    "isoCode": "CD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cd.svg",
+    "mobileNumberLength": 12,
+    "example": "+243 123456"
+  },
+  {
+    "name": "Denmark",
+    "dialCode": "+45",
+    "isoCode": "DK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dk.svg",
+    "mobileNumberLength": 12,
+    "example": "+45 123456"
+  },
+  {
+    "name": "Djibouti",
+    "dialCode": "+253",
+    "isoCode": "DJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dj.svg",
+    "mobileNumberLength": 12,
+    "example": "+253 123456"
+  },
+  {
+    "name": "Dominica",
+    "dialCode": "+1767",
+    "isoCode": "DM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dm.svg",
+    "mobileNumberLength": 12,
+    "example": "+1767 1234"
+  },
+  {
+    "name": "Dominican Republic",
+    "dialCode": "+1849",
+    "isoCode": "DO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/do.svg",
+    "mobileNumberLength": 12,
+    "example": "+1849 1234"
+  },
+  {
+    "name": "Ecuador",
+    "dialCode": "+593",
+    "isoCode": "EC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ec.svg",
+    "mobileNumberLength": 12,
+    "example": "+593 123456"
+  },
+  {
+    "name": "Egypt",
+    "dialCode": "+20",
+    "isoCode": "EG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/eg.svg",
+    "mobileNumberLength": 12,
+    "example": "+20 123456"
+  },
+  {
+    "name": "El Salvador",
+    "dialCode": "+503",
+    "isoCode": "SV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sv.svg",
+    "mobileNumberLength": 12,
+    "example": "+503 123456"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "dialCode": "+240",
+    "isoCode": "GQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gq.svg",
+    "mobileNumberLength": 12,
+    "example": "+240 123456"
+  },
+  {
+    "name": "Eritrea",
+    "dialCode": "+291",
+    "isoCode": "ER",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/er.svg",
+    "mobileNumberLength": 12,
+    "example": "+291 123456"
+  },
+  {
+    "name": "Estonia",
+    "dialCode": "+372",
+    "isoCode": "EE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ee.svg",
+    "mobileNumberLength": 12,
+    "example": "+372 123456"
+  },
+  {
+    "name": "Eswatini",
+    "dialCode": "+268",
+    "isoCode": "SZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sz.svg",
+    "mobileNumberLength": 12,
+    "example": "+268 123456"
+  },
+  {
+    "name": "Ethiopia",
+    "dialCode": "+251",
+    "isoCode": "ET",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/et.svg",
+    "mobileNumberLength": 12,
+    "example": "+251 123456"
+  },
+  {
+    "name": "Falkland Islands (Malvinas)",
+    "dialCode": "+500",
+    "isoCode": "FK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fk.svg",
+    "mobileNumberLength": 12,
+    "example": "+500 123456"
+  },
+  {
+    "name": "Faroe Islands",
+    "dialCode": "+298",
+    "isoCode": "FO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fo.svg",
+    "mobileNumberLength": 12,
+    "example": "+298 123456"
+  },
+  {
+    "name": "Fiji",
+    "dialCode": "+679",
+    "isoCode": "FJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fj.svg",
+    "mobileNumberLength": 12,
+    "example": "+679 123456"
+  },
+  {
+    "name": "Finland",
+    "dialCode": "+358",
+    "isoCode": "FI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fi.svg",
+    "mobileNumberLength": 12,
+    "example": "+358 123456"
+  },
+  {
+    "name": "France",
+    "dialCode": "+33",
+    "isoCode": "FR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fr.svg",
+    "mobileNumberLength": 12,
+    "example": "+33 123456"
+  },
+  {
+    "name": "French Guiana",
+    "dialCode": "+594",
+    "isoCode": "GF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gf.svg",
+    "mobileNumberLength": 12,
+    "example": "+594 123456"
+  },
+  {
+    "name": "French Polynesia",
+    "dialCode": "+689",
+    "isoCode": "PF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pf.svg",
+    "mobileNumberLength": 12,
+    "example": "+689 123456"
+  },
+  {
+    "name": "Gabon",
+    "dialCode": "+241",
+    "isoCode": "GA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ga.svg",
+    "mobileNumberLength": 12,
+    "example": "+241 123456"
+  },
+  {
+    "name": "Gambia",
+    "dialCode": "+220",
+    "isoCode": "GM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gm.svg",
+    "mobileNumberLength": 12,
+    "example": "+220 123456"
+  },
+  {
+    "name": "Georgia",
+    "dialCode": "+995",
+    "isoCode": "GE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ge.svg",
+    "mobileNumberLength": 12,
+    "example": "+995 123456"
+  },
+  {
+    "name": "Germany",
+    "dialCode": "+49",
+    "isoCode": "DE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/de.svg",
+    "mobileNumberLength": 12,
+    "example": "+49 123456"
+  },
+  {
+    "name": "Ghana",
+    "dialCode": "+233",
+    "isoCode": "GH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gh.svg",
+    "mobileNumberLength": 12,
+    "example": "+233 123456"
+  },
+  {
+    "name": "Gibraltar",
+    "dialCode": "+350",
+    "isoCode": "GI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gi.svg",
+    "mobileNumberLength": 12,
+    "example": "+350 123456"
+  },
+  {
+    "name": "Greece",
+    "dialCode": "+30",
+    "isoCode": "GR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gr.svg",
+    "mobileNumberLength": 12,
+    "example": "+30 123456"
+  },
+  {
+    "name": "Greenland",
+    "dialCode": "+299",
+    "isoCode": "GL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gl.svg",
+    "mobileNumberLength": 12,
+    "example": "+299 123456"
+  },
+  {
+    "name": "Grenada",
+    "dialCode": "+1473",
+    "isoCode": "GD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gd.svg",
+    "mobileNumberLength": 12,
+    "example": "+1473 1234"
+  },
+  {
+    "name": "Guadeloupe",
+    "dialCode": "+590",
+    "isoCode": "GP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gp.svg",
+    "mobileNumberLength": 12,
+    "example": "+590 123456"
+  },
+  {
+    "name": "Guam",
+    "dialCode": "+1671",
+    "isoCode": "GU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gu.svg",
+    "mobileNumberLength": 12,
+    "example": "+1671 1234"
+  },
+  {
+    "name": "Guatemala",
+    "dialCode": "+502",
+    "isoCode": "GT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gt.svg",
+    "mobileNumberLength": 12,
+    "example": "+502 123456"
+  },
+  {
+    "name": "Guernsey",
+    "dialCode": "+44-1481",
+    "isoCode": "GG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gg.svg",
+    "mobileNumberLength": 12,
+    "example": "+44-1481 "
+  },
+  {
+    "name": "Guinea",
+    "dialCode": "+224",
+    "isoCode": "GN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gn.svg",
+    "mobileNumberLength": 12,
+    "example": "+224 123456"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "dialCode": "+245",
+    "isoCode": "GW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gw.svg",
+    "mobileNumberLength": 12,
+    "example": "+245 123456"
+  },
+  {
+    "name": "Guyana",
+    "dialCode": "+592",
+    "isoCode": "GY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gy.svg",
+    "mobileNumberLength": 12,
+    "example": "+592 123456"
+  },
+  {
+    "name": "Haiti",
+    "dialCode": "+509",
+    "isoCode": "HT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ht.svg",
+    "mobileNumberLength": 12,
+    "example": "+509 123456"
+  },
+  {
+    "name": "Holy See (Vatican City State)",
+    "dialCode": "+379",
+    "isoCode": "VA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/va.svg",
+    "mobileNumberLength": 12,
+    "example": "+379 123456"
+  },
+  {
+    "name": "Honduras",
+    "dialCode": "+504",
+    "isoCode": "HN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hn.svg",
+    "mobileNumberLength": 12,
+    "example": "+504 123456"
+  },
+  {
+    "name": "Hong Kong",
+    "dialCode": "+852",
+    "isoCode": "HK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hk.svg",
+    "mobileNumberLength": 12,
+    "example": "+852 123456"
+  },
+  {
+    "name": "Hungary",
+    "dialCode": "+36",
+    "isoCode": "HU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/hu.svg",
+    "mobileNumberLength": 12,
+    "example": "+36 123456"
+  },
+  {
+    "name": "Iceland",
+    "dialCode": "+354",
+    "isoCode": "IS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/is.svg",
+    "mobileNumberLength": 12,
+    "example": "+354 123456"
+  },
+  {
+    "name": "India",
+    "dialCode": "+91",
+    "isoCode": "IN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/in.svg",
+    "mobileNumberLength": 10,
+    "example": "+91 1234567890"
+  },
+  {
+    "name": "Indonesia",
+    "dialCode": "+62",
+    "isoCode": "ID",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/id.svg",
+    "mobileNumberLength": 12,
+    "example": "+62 123456789"
+  },
+  {
+    "name": "Iran",
+    "dialCode": "+98",
+    "isoCode": "IR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ir.svg",
+    "mobileNumberLength": 12,
+    "example": "+98 1234567890"
+  },
+  {
+    "name": "Iraq",
+    "dialCode": "+964",
+    "isoCode": "IQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/iq.svg",
+    "mobileNumberLength": 12,
+    "example": "+964 1234567890"
+  },
+  {
+    "name": "Ireland",
+    "dialCode": "+353",
+    "isoCode": "IE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ie.svg",
+    "mobileNumberLength": 12,
+    "example": "+353 123456789"
+  },
+  {
+    "name": "Isle of Man",
+    "dialCode": "+44-1624",
+    "isoCode": "IM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/im.svg",
+    "mobileNumberLength": 12,
+    "example": "+44-1624 123456"
+  },
+  {
+    "name": "Israel",
+    "dialCode": "+972",
+    "isoCode": "IL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/il.svg",
+    "mobileNumberLength": 12,
+    "example": "+972 1234567890"
+  },
+  {
+    "name": "Italy",
+    "dialCode": "+39",
+    "isoCode": "IT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/it.svg",
+    "mobileNumberLength": 12,
+    "example": "+39 123456789"
+  },
+  {
+    "name": "Ivory Coast / Cote d'Ivoire",
+    "dialCode": "+225",
+    "isoCode": "CI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ci.svg",
+    "mobileNumberLength": 12,
+    "example": "+225 12345678"
+  },
+  {
+    "name": "Jamaica",
+    "dialCode": "+1876",
+    "isoCode": "JM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jm.svg",
+    "mobileNumberLength": 12,
+    "example": "+1876 123456789"
+  },
+  {
+    "name": "Japan",
+    "dialCode": "+81",
+    "isoCode": "JP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jp.svg",
+    "mobileNumberLength": 12,
+    "example": "+81 1234567890"
+  },
+  {
+    "name": "Jersey",
+    "dialCode": "+44-1534",
+    "isoCode": "JE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/je.svg",
+    "mobileNumberLength": 12,
+    "example": "+44-1534 123456"
+  },
+  {
+    "name": "Jordan",
+    "dialCode": "+962",
+    "isoCode": "JO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jo.svg",
+    "mobileNumberLength": 12,
+    "example": "+962 1234567890"
+  },
+  {
+    "name": "Kazakhstan",
+    "dialCode": "+77",
+    "isoCode": "KZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kz.svg",
+    "mobileNumberLength": 12,
+    "example": "+77 71234567890"
+  },
+  {
+    "name": "Kenya",
+    "dialCode": "+254",
+    "isoCode": "KE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ke.svg",
+    "mobileNumberLength": 12,
+    "example": "+254 1234567890"
+  },
+  {
+    "name": "Kiribati",
+    "dialCode": "+686",
+    "isoCode": "KI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ki.svg",
+    "mobileNumberLength": 12,
+    "example": "+686 12345"
+  },
+  {
+    "name": "North Korea",
+    "dialCode": "+850",
+    "isoCode": "KP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kp.svg",
+    "mobileNumberLength": 12,
+    "example": "+850 1234567890"
+  },
+  {
+    "name": "South Korea",
+    "dialCode": "+82",
+    "isoCode": "KR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kr.svg",
+    "mobileNumberLength": 12,
+    "example": "+82 1234567890"
+  },
+  {
+    "name": "Kosovo",
+    "dialCode": "+383",
+    "isoCode": "XK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/xk.svg",
+    "mobileNumberLength": 12,
+    "example": "+383 123456789"
+  },
+  {
+    "name": "Kuwait",
+    "dialCode": "+965",
+    "isoCode": "KW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kw.svg",
+    "mobileNumberLength": 12,
+    "example": "+965 12345678"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "dialCode": "+996",
+    "isoCode": "KG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kg.svg",
+    "mobileNumberLength": 12,
+    "example": "+996 123456789"
+  },
+  {
+    "name": "Laos",
+    "dialCode": "+856",
+    "isoCode": "LA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/la.svg",
+    "mobileNumberLength": 12,
+    "example": "+856 1234567890"
+  },
+  {
+    "name": "Latvia",
+    "dialCode": "+371",
+    "isoCode": "LV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lv.svg",
+    "mobileNumberLength": 12,
+    "example": "+371 12345678"
+  },
+  {
+    "name": "Lebanon",
+    "dialCode": "+961",
+    "isoCode": "LB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lb.svg",
+    "mobileNumberLength": 12,
+    "example": "+961 12345678"
+  },
+  {
+    "name": "Lesotho",
+    "dialCode": "+266",
+    "isoCode": "LS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ls.svg",
+    "mobileNumberLength": 12,
+    "example": "+266 12345678"
+  },
+  {
+    "name": "Liberia",
+    "dialCode": "+231",
+    "isoCode": "LR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lr.svg",
+    "mobileNumberLength": 12,
+    "example": "+231 12345678"
+  },
+  {
+    "name": "Libya",
+    "dialCode": "+218",
+    "isoCode": "LY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ly.svg",
+    "mobileNumberLength": 12,
+    "example": "+218 123456789"
+  },
+  {
+    "name": "Liechtenstein",
+    "dialCode": "+423",
+    "isoCode": "LI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/li.svg",
+    "mobileNumberLength": 12,
+    "example": "+423 123456"
+  },
+  {
+    "name": "Lithuania",
+    "dialCode": "+370",
+    "isoCode": "LT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lt.svg",
+    "mobileNumberLength": 12,
+    "example": "+370 123456"
+  },
+  {
+    "name": "Luxembourg",
+    "dialCode": "+352",
+    "isoCode": "LU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lu.svg",
+    "mobileNumberLength": 12,
+    "example": "+352 123456"
+  },
+  {
+    "name": "Macau",
+    "dialCode": "+853",
+    "isoCode": "MO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mo.svg",
+    "mobileNumberLength": 12,
+    "example": "+853 123456"
+  },
+  {
+    "name": "Madagascar",
+    "dialCode": "+261",
+    "isoCode": "MG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mg.svg",
+    "mobileNumberLength": 12,
+    "example": "+261 123456"
+  },
+  {
+    "name": "Malawi",
+    "dialCode": "+265",
+    "isoCode": "MW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mw.svg",
+    "mobileNumberLength": 12,
+    "example": "+265 123456"
+  },
+  {
+    "name": "Malaysia",
+    "dialCode": "+60",
+    "isoCode": "MY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/my.svg",
+    "mobileNumberLength": 12,
+    "example": "+60 123456"
+  },
+  {
+    "name": "Maldives",
+    "dialCode": "+960",
+    "isoCode": "MV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mv.svg",
+    "mobileNumberLength": 12,
+    "example": "+960 123456"
+  },
+  {
+    "name": "Mali",
+    "dialCode": "+223",
+    "isoCode": "ML",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ml.svg",
+    "mobileNumberLength": 12,
+    "example": "+223 123456"
+  },
+  {
+    "name": "Malta",
+    "dialCode": "+356",
+    "isoCode": "MT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mt.svg",
+    "mobileNumberLength": 12,
+    "example": "+356 123456"
+  },
+  {
+    "name": "Marshall Islands",
+    "dialCode": "+692",
+    "isoCode": "MH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mh.svg",
+    "mobileNumberLength": 12,
+    "example": "+692 123456"
+  },
+  {
+    "name": "Martinique",
+    "dialCode": "+596",
+    "isoCode": "MQ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mq.svg",
+    "mobileNumberLength": 12,
+    "example": "+596 123456"
+  },
+  {
+    "name": "Mauritania",
+    "dialCode": "+222",
+    "isoCode": "MR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mr.svg",
+    "mobileNumberLength": 12,
+    "example": "+222 12345678"
+  },
+  {
+    "name": "Mauritius",
+    "dialCode": "+230",
+    "isoCode": "MU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mu.svg",
+    "mobileNumberLength": 12,
+    "example": "+230 12345678"
+  },
+  {
+    "name": "Mayotte",
+    "dialCode": "+262",
+    "isoCode": "YT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/yt.svg",
+    "mobileNumberLength": 12,
+    "example": "+262 123456789"
+  },
+  {
+    "name": "Mexico",
+    "dialCode": "+52",
+    "isoCode": "MX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mx.svg",
+    "mobileNumberLength": 12,
+    "example": "+52 1234567890"
+  },
+  {
+    "name": "Micronesia, Federated States of Micronesia",
+    "dialCode": "+691",
+    "isoCode": "FM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fm.svg",
+    "mobileNumberLength": 12,
+    "example": "+691 1234567"
+  },
+  {
+    "name": "Moldova",
+    "dialCode": "+373",
+    "isoCode": "MD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/md.svg",
+    "mobileNumberLength": 12,
+    "example": "+373 12345678"
+  },
+  {
+    "name": "Monaco",
+    "dialCode": "+377",
+    "isoCode": "MC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mc.svg",
+    "mobileNumberLength": 12,
+    "example": "+377 12345678"
+  },
+  {
+    "name": "Mongolia",
+    "dialCode": "+976",
+    "isoCode": "MN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mn.svg",
+    "mobileNumberLength": 12,
+    "example": "+976 12345678"
+  },
+  {
+    "name": "Montenegro",
+    "dialCode": "+382",
+    "isoCode": "ME",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/me.svg",
+    "mobileNumberLength": 12,
+    "example": "+382 12345678"
+  },
+  {
+    "name": "Montserrat",
+    "dialCode": "+1664",
+    "isoCode": "MS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ms.svg",
+    "mobileNumberLength": 12,
+    "example": "+1664 1234567"
+  },
+  {
+    "name": "Morocco",
+    "dialCode": "+212",
+    "isoCode": "MA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ma.svg",
+    "mobileNumberLength": 12,
+    "example": "+212 123456789"
+  },
+  {
+    "name": "Mozambique",
+    "dialCode": "+258",
+    "isoCode": "MZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mz.svg",
+    "mobileNumberLength": 12,
+    "example": "+258 123456789"
+  },
+  {
+    "name": "Myanmar",
+    "dialCode": "+95",
+    "isoCode": "MM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mm.svg",
+    "mobileNumberLength": 12,
+    "example": "+95 123456789"
+  },
+  {
+    "name": "Namibia",
+    "dialCode": "+264",
+    "isoCode": "NA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/na.svg",
+    "mobileNumberLength": 12,
+    "example": "+264 123456789"
+  },
+  {
+    "name": "Nauru",
+    "dialCode": "+674",
+    "isoCode": "NR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nr.svg",
+    "mobileNumberLength": 12,
+    "example": "+674 1234567"
+  },
+  {
+    "name": "Nepal",
+    "dialCode": "+977",
+    "isoCode": "NP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/np.svg",
+    "mobileNumberLength": 12,
+    "example": "+977 1234567890"
+  },
+  {
+    "name": "Netherlands",
+    "dialCode": "+31",
+    "isoCode": "NL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nl.svg",
+    "mobileNumberLength": 12,
+    "example": "+31 123456789"
+  },
+  {
+    "name": "Netherlands Antilles",
+    "dialCode": "+599",
+    "isoCode": "AN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/an.svg",
+    "mobileNumberLength": 12,
+    "example": "+599 123456789"
+  },
+  {
+    "name": "New Caledonia",
+    "dialCode": "+687",
+    "isoCode": "NC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nc.svg",
+    "mobileNumberLength": 12,
+    "example": "+687 12345678"
+  },
+  {
+    "name": "New Zealand",
+    "dialCode": "+64",
+    "isoCode": "NZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nz.svg",
+    "mobileNumberLength": 12,
+    "example": "+64 123456789"
+  },
+  {
+    "name": "Nicaragua",
+    "dialCode": "+505",
+    "isoCode": "NI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ni.svg",
+    "mobileNumberLength": 12,
+    "example": "+505 12345678"
+  },
+  {
+    "name": "Niger",
+    "dialCode": "+227",
+    "isoCode": "NE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ne.svg",
+    "mobileNumberLength": 12,
+    "example": "+227 12345678"
+  },
+  {
+    "name": "Nigeria",
+    "dialCode": "+234",
+    "isoCode": "NG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ng.svg",
+    "mobileNumberLength": 12,
+    "example": "+234 1234567890"
+  },
+  {
+    "name": "Niue",
+    "dialCode": "+683",
+    "isoCode": "NU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nu.svg",
+    "mobileNumberLength": 12,
+    "example": "+683 1234567"
+  },
+  {
+    "name": "Norfolk Island",
+    "dialCode": "+672",
+    "isoCode": "NF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/nf.svg",
+    "mobileNumberLength": 12,
+    "example": "+672 1234567"
+  },
+  {
+    "name": "North Macedonia",
+    "dialCode": "+389",
+    "isoCode": "MK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mk.svg",
+    "mobileNumberLength": 12,
+    "example": "+389 12345678"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "dialCode": "+1670",
+    "isoCode": "MP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mp.svg",
+    "mobileNumberLength": 12,
+    "example": "+1670 1234567"
+  },
+  {
+    "name": "Norway",
+    "dialCode": "+47",
+    "isoCode": "NO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/no.svg",
+    "mobileNumberLength": 12,
+    "example": "+47 12345678"
+  },
+  {
+    "name": "Oman",
+    "dialCode": "+968",
+    "isoCode": "OM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/om.svg",
+    "mobileNumberLength": 12,
+    "example": "+968 12345678"
+  },
+  {
+    "name": "Pakistan",
+    "dialCode": "+92",
+    "isoCode": "PK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pk.svg",
+    "mobileNumberLength": 12,
+    "example": "+92 1234567890"
+  },
+  {
+    "name": "Palau",
+    "dialCode": "+680",
+    "isoCode": "PW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pw.svg",
+    "mobileNumberLength": 12,
+    "example": "+680 1234567"
+  },
+  {
+    "name": "Palestine",
+    "dialCode": "+970",
+    "isoCode": "PS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ps.svg",
+    "mobileNumberLength": 12,
+    "example": "+970 12345678"
+  },
+  {
+    "name": "Panama",
+    "dialCode": "+507",
+    "isoCode": "PA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pa.svg",
+    "mobileNumberLength": 12,
+    "example": "+507 12345678"
+  },
+  {
+    "name": "Papua New Guinea",
+    "dialCode": "+675",
+    "isoCode": "PG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pg.svg",
+    "mobileNumberLength": 12,
+    "example": "+675 12345678"
+  },
+  {
+    "name": "Paraguay",
+    "dialCode": "+595",
+    "isoCode": "PY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/py.svg",
+    "mobileNumberLength": 12,
+    "example": "+595 123456789"
+  },
+  {
+    "name": "Peru",
+    "dialCode": "+51",
+    "isoCode": "PE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pe.svg",
+    "mobileNumberLength": 12,
+    "example": "+51 123456789"
+  },
+  {
+    "name": "Philippines",
+    "dialCode": "+63",
+    "isoCode": "PH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ph.svg",
+    "mobileNumberLength": 12,
+    "example": "+63 1234567890"
+  },
+  {
+    "name": "Pitcairn",
+    "dialCode": "+872",
+    "isoCode": "PN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pn.svg",
+    "mobileNumberLength": 12,
+    "example": "+872 1234567890"
+  },
+  {
+    "name": "Poland",
+    "dialCode": "+48",
+    "isoCode": "PL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pl.svg",
+    "mobileNumberLength": 12,
+    "example": "+48 123456789"
+  },
+  {
+    "name": "Portugal",
+    "dialCode": "+351",
+    "isoCode": "PT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pt.svg",
+    "mobileNumberLength": 12,
+    "example": "+351 123456789"
+  },
+  {
+    "name": "Puerto Rico",
+    "dialCode": "+1939",
+    "isoCode": "PR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pr.svg",
+    "mobileNumberLength": 12,
+    "example": "+1939 1234567"
+  },
+  {
+    "name": "Qatar",
+    "dialCode": "+974",
+    "isoCode": "QA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/qa.svg",
+    "mobileNumberLength": 12,
+    "example": "+974 12345678"
+  },
+  {
+    "name": "Reunion",
+    "dialCode": "+262",
+    "isoCode": "RE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/re.svg",
+    "mobileNumberLength": 12,
+    "example": "+262 123456789"
+  },
+  {
+    "name": "Romania",
+    "dialCode": "+40",
+    "isoCode": "RO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ro.svg",
+    "mobileNumberLength": 12,
+    "example": "+40 1234567890"
+  },
+  {
+    "name": "Russia",
+    "dialCode": "+7",
+    "isoCode": "RU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ru.svg",
+    "mobileNumberLength": 12,
+    "example": "+7 1234567890"
+  },
+  {
+    "name": "Rwanda",
+    "dialCode": "+250",
+    "isoCode": "RW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/rw.svg",
+    "mobileNumberLength": 12,
+    "example": "+250 123456789"
+  },
+  {
+    "name": "Saint Barthelemy",
+    "dialCode": "+590",
+    "isoCode": "BL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/bl.svg",
+    "mobileNumberLength": 12,
+    "example": "+590 123456789"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan Da Cunha",
+    "dialCode": "+290",
+    "isoCode": "SH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sh.svg",
+    "mobileNumberLength": 12,
+    "example": "+290 123456789"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "dialCode": "+1869",
+    "isoCode": "KN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/kn.svg",
+    "mobileNumberLength": 12,
+    "example": "+1869 1234567"
+  },
+  {
+    "name": "Saint Lucia",
+    "dialCode": "+1758",
+    "isoCode": "LC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lc.svg",
+    "mobileNumberLength": 12,
+    "example": "+1758 1234567"
+  },
+  {
+    "name": "Saint Martin",
+    "dialCode": "+590",
+    "isoCode": "MF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mf.svg",
+    "mobileNumberLength": 12,
+    "example": "+590 123456789"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "dialCode": "+508",
+    "isoCode": "PM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/pm.svg",
+    "mobileNumberLength": 12,
+    "example": "+508 123456"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "dialCode": "+1784",
+    "isoCode": "VC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vc.svg",
+    "mobileNumberLength": 12,
+    "example": "+1784 1234567"
+  },
+  {
+    "name": "Samoa",
+    "dialCode": "+685",
+    "isoCode": "WS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ws.svg",
+    "mobileNumberLength": 12,
+    "example": "+685 12345"
+  },
+  {
+    "name": "San Marino",
+    "dialCode": "+378",
+    "isoCode": "SM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sm.svg",
+    "mobileNumberLength": 12,
+    "example": "+378 12345678"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "dialCode": "+239",
+    "isoCode": "ST",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/st.svg",
+    "mobileNumberLength": 12,
+    "example": "+239 1234567"
+  },
+  {
+    "name": "Saudi Arabia",
+    "dialCode": "+966",
+    "isoCode": "SA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sa.svg",
+    "mobileNumberLength": 12,
+    "example": "+966 123456789"
+  },
+  {
+    "name": "Senegal",
+    "dialCode": "+221",
+    "isoCode": "SN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sn.svg",
+    "mobileNumberLength": 12,
+    "example": "+221 1234567"
+  },
+  {
+    "name": "Serbia",
+    "dialCode": "+381",
+    "isoCode": "RS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/rs.svg",
+    "mobileNumberLength": 12,
+    "example": "+381 12345678"
+  },
+  {
+    "name": "Seychelles",
+    "dialCode": "+248",
+    "isoCode": "SC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sc.svg",
+    "mobileNumberLength": 12,
+    "example": "+248 1234567"
+  },
+  {
+    "name": "Sierra Leone",
+    "dialCode": "+232",
+    "isoCode": "SL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sl.svg",
+    "mobileNumberLength": 12,
+    "example": "+232 12345678"
+  },
+  {
+    "name": "Singapore",
+    "dialCode": "+65",
+    "isoCode": "SG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sg.svg",
+    "mobileNumberLength": 12,
+    "example": "+65 12345678"
+  },
+  {
+    "name": "Sint Maarten",
+    "dialCode": "+1721",
+    "isoCode": "SX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sx.svg",
+    "mobileNumberLength": 12,
+    "example": "+1721 1234567"
+  },
+  {
+    "name": "Slovakia",
+    "dialCode": "+421",
+    "isoCode": "SK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sk.svg",
+    "mobileNumberLength": 12,
+    "example": "+421 123456789"
+  },
+  {
+    "name": "Slovenia",
+    "dialCode": "+386",
+    "isoCode": "SI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/si.svg",
+    "mobileNumberLength": 12,
+    "example": "+386 12345678"
+  },
+  {
+    "name": "Solomon Islands",
+    "dialCode": "+677",
+    "isoCode": "SB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sb.svg",
+    "mobileNumberLength": 12,
+    "example": "+677 1234567"
+  },
+  {
+    "name": "Somalia",
+    "dialCode": "+252",
+    "isoCode": "SO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/so.svg",
+    "mobileNumberLength": 12,
+    "example": "+252 123456789"
+  },
+  {
+    "name": "South Africa",
+    "dialCode": "+27",
+    "isoCode": "ZA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/za.svg",
+    "mobileNumberLength": 12,
+    "example": "+27 123456789"
+  },
+  {
+    "name": "South Georgia and the South Sandwich Islands",
+    "dialCode": "+500",
+    "isoCode": "GS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gs.svg",
+    "mobileNumberLength": 12,
+    "example": "+500 12345"
+  },
+  {
+    "name": "South Sudan",
+    "dialCode": "+211",
+    "isoCode": "SS",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ss.svg",
+    "mobileNumberLength": 12,
+    "example": "+211 123456789"
+  },
+  {
+    "name": "Spain",
+    "dialCode": "+34",
+    "isoCode": "ES",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/es.svg",
+    "mobileNumberLength": 12,
+    "example": "+34 123456789"
+  },
+  {
+    "name": "Sri Lanka",
+    "dialCode": "+94",
+    "isoCode": "LK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/lk.svg",
+    "mobileNumberLength": 12,
+    "example": "+94 123456789"
+  },
+  {
+    "name": "Sudan",
+    "dialCode": "+249",
+    "isoCode": "SD",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sd.svg",
+    "mobileNumberLength": 12,
+    "example": "+249 123456789"
+  },
+  {
+    "name": "Suriname",
+    "dialCode": "+597",
+    "isoCode": "SR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sr.svg",
+    "mobileNumberLength": 12,
+    "example": "+597 1234567"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "dialCode": "+47",
+    "isoCode": "SJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sj.svg",
+    "mobileNumberLength": 12,
+    "example": "+47 12345678"
+  },
+  {
+    "name": "Sweden",
+    "dialCode": "+46",
+    "isoCode": "SE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/se.svg",
+    "mobileNumberLength": 12,
+    "example": "+46 123456789"
+  },
+  {
+    "name": "Switzerland",
+    "dialCode": "+41",
+    "isoCode": "CH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ch.svg",
+    "mobileNumberLength": 12,
+    "example": "+41 123456789"
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "dialCode": "+963",
+    "isoCode": "SY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/sy.svg",
+    "mobileNumberLength": 12,
+    "example": "+963 123456789"
+  },
+  {
+    "name": "Taiwan",
+    "dialCode": "+886",
+    "isoCode": "TW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tw.svg",
+    "mobileNumberLength": 12,
+    "example": "+886 912345678"
+  },
+  {
+    "name": "Tajikistan",
+    "dialCode": "+992",
+    "isoCode": "TJ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tj.svg",
+    "mobileNumberLength": 12,
+    "example": "+992 917123456"
+  },
+  {
+    "name": "Tanzania, United Republic of Tanzania",
+    "dialCode": "+255",
+    "isoCode": "TZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tz.svg",
+    "mobileNumberLength": 12,
+    "example": "+255 712345678"
+  },
+  {
+    "name": "Thailand",
+    "dialCode": "+66",
+    "isoCode": "TH",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/th.svg",
+    "mobileNumberLength": 12,
+    "example": "+66 912345678"
+  },
+  {
+    "name": "Timor-Leste",
+    "dialCode": "+670",
+    "isoCode": "TL",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tl.svg",
+    "mobileNumberLength": 12,
+    "example": "+670 7123456"
+  },
+  {
+    "name": "Togo",
+    "dialCode": "+228",
+    "isoCode": "TG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tg.svg",
+    "mobileNumberLength": 12,
+    "example": "+228 90123456"
+  },
+  {
+    "name": "Tokelau",
+    "dialCode": "+690",
+    "isoCode": "TK",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tk.svg",
+    "mobileNumberLength": 12,
+    "example": "+690 1234"
+  },
+  {
+    "name": "Tonga",
+    "dialCode": "+676",
+    "isoCode": "TO",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/to.svg",
+    "mobileNumberLength": 12,
+    "example": "+676 71234"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "dialCode": "+1868",
+    "isoCode": "TT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tt.svg",
+    "mobileNumberLength": 12,
+    "example": "+1868 2345678"
+  },
+  {
+    "name": "Tunisia",
+    "dialCode": "+216",
+    "isoCode": "TN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tn.svg",
+    "mobileNumberLength": 12,
+    "example": "+216 20123456"
+  },
+  {
+    "name": "Turkey",
+    "dialCode": "+90",
+    "isoCode": "TR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tr.svg",
+    "mobileNumberLength": 12,
+    "example": "+90 5012345678"
+  },
+  {
+    "name": "Turkmenistan",
+    "dialCode": "+993",
+    "isoCode": "TM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tm.svg",
+    "mobileNumberLength": 12,
+    "example": "+993 65123456"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "dialCode": "+1649",
+    "isoCode": "TC",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tc.svg",
+    "mobileNumberLength": 12,
+    "example": "+1649 2314567"
+  },
+  {
+    "name": "Tuvalu",
+    "dialCode": "+688",
+    "isoCode": "TV",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/tv.svg",
+    "mobileNumberLength": 12,
+    "example": "+688 12345"
+  },
+  {
+    "name": "Uganda",
+    "dialCode": "+256",
+    "isoCode": "UG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ug.svg",
+    "mobileNumberLength": 12,
+    "example": "+256 712345678"
+  },
+  {
+    "name": "Ukraine",
+    "dialCode": "+380",
+    "isoCode": "UA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ua.svg",
+    "mobileNumberLength": 12,
+    "example": "+380 931234567"
+  },
+  {
+    "name": "United Arab Emirates",
+    "dialCode": "+971",
+    "isoCode": "AE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ae.svg",
+    "mobileNumberLength": 12,
+    "example": "+971 501234567"
+  },
+  {
+    "name": "United Kingdom",
+    "dialCode": "+44",
+    "isoCode": "GB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gb.svg",
+    "mobileNumberLength": 12,
+    "example": "+44 7123456789"
+  },
+  {
+    "name": "United States",
+    "dialCode": "+1",
+    "isoCode": "US",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/us.svg",
+    "mobileNumberLength": 12,
+    "example": "+1 2345678901"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "dialCode": "+246",
+    "isoCode": "UMI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/us.svg",
+    "mobileNumberLength": 12,
+    "example": "+246 1234567"
+  },
+  {
+    "name": "Uruguay",
+    "dialCode": "+598",
+    "isoCode": "UY",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/uy.svg",
+    "mobileNumberLength": 12,
+    "example": "+598 91234567"
+  },
+  {
+    "name": "Uzbekistan",
+    "dialCode": "+998",
+    "isoCode": "UZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/uz.svg",
+    "mobileNumberLength": 12,
+    "example": "+998 901234567"
+  },
+  {
+    "name": "Vanuatu",
+    "dialCode": "+678",
+    "isoCode": "VU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vu.svg",
+    "mobileNumberLength": 12,
+    "example": "+678 1234567"
+  },
+  {
+    "name": "Venezuela, Bolivarian Republic of Venezuela",
+    "dialCode": "+58",
+    "isoCode": "VE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ve.svg",
+    "mobileNumberLength": 12,
+    "example": "+58 2121234567"
+  },
+  {
+    "name": "Vietnam",
+    "dialCode": "+84",
+    "isoCode": "VN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vn.svg",
+    "mobileNumberLength": 12,
+    "example": "+84 912345678"
+  },
+  {
+    "name": "Virgin Islands, British",
+    "dialCode": "+1284",
+    "isoCode": "VG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vg.svg",
+    "mobileNumberLength": 12,
+    "example": "+1284 3456789"
+  },
+  {
+    "name": "Virgin Islands, U.S.",
+    "dialCode": "+1340",
+    "isoCode": "VI",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/vi.svg",
+    "mobileNumberLength": 12,
+    "example": "+1340 7654321"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "dialCode": "+681",
+    "isoCode": "WF",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/wf.svg",
+    "mobileNumberLength": 12,
+    "example": "+681 123456"
+  },
+  {
+    "name": "Yemen",
+    "dialCode": "+967",
+    "isoCode": "YE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ye.svg",
+    "mobileNumberLength": 12,
+    "example": "+967 712345678"
+  },
+  {
+    "name": "Zambia",
+    "dialCode": "+260",
+    "isoCode": "ZM",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/zm.svg",
+    "mobileNumberLength": 12,
+    "example": "+260 955123456"
+  },
+  {
+    "name": "Zimbabwe",
+    "dialCode": "+263",
+    "isoCode": "ZW",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/zw.svg",
+    "mobileNumberLength": 12,
+    "example": "+263 712345678"
+  }
+]
