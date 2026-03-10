@@ -1,9 +1,23 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, StatusBar, StyleSheet} from 'react-native';
-import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import {useTheme} from '../../utils/themeProvider';
-import {fonts, fontSemiBold, fontRegular, horizontalScale, verticalScale} from '../../constants/fonts';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StatusBar,
+  StyleSheet,
+} from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useNavigation } from '@react-navigation/native';
+import { useTheme } from '../../utils/themeProvider';
+import { useAppSelector } from '../../hooks/reduxHooks';
+import SCREEN from '../../navigation/screenNames';
+import {
+  fonts,
+  fontSemiBold,
+  fontRegular,
+  horizontalScale,
+  verticalScale,
+} from '../../constants/fonts';
 
 type Props = {
   title?: string;
@@ -12,10 +26,20 @@ type Props = {
 
 const DashboardHeader: React.FC<Props> = ({
   title = 'Tring Health',
-  subtitle = 'Hi, Sandiya!',
+  subtitle,
 }) => {
-  const {colors} = useTheme();
+  const { colors } = useTheme();
   const insets = useSafeAreaInsets();
+  const navigation = useNavigation<any>();
+  const userInfo = useAppSelector(state => state.auth.userInfo);
+
+  const firstName = (userInfo?.firstName || '').trim();
+  const lastName = (userInfo?.lastName || '').trim();
+  const headerSubtitle = subtitle || `Hi, ${firstName || 'Sandiya'}!`;
+
+  const firstInitial = firstName.charAt(0) || 'S';
+  const lastInitial = lastName.charAt(0) || 'P';
+  const initials = `${firstInitial}${lastInitial}`.toUpperCase();
 
   return (
     <>
@@ -27,29 +51,28 @@ const DashboardHeader: React.FC<Props> = ({
             backgroundColor: colors.primary,
             paddingTop: verticalScale(16) + insets.top,
           },
-        ]}>
+        ]}
+      >
         <View style={styles.headerRow}>
           <View style={styles.headerTextWrap}>
-            <Text style={[styles.headerTitle, {color: colors.white}]}>
+            <Text style={[styles.headerTitle, { color: colors.white }]}>
               {title}
             </Text>
-            <Text style={[styles.headerSubtitle, {color: colors.white}]}>
-              {subtitle}
+            <Text style={[styles.headerSubtitle, { color: colors.white }]}>
+              {headerSubtitle}
             </Text>
           </View>
           <TouchableOpacity
             activeOpacity={0.8}
-            hitSlop={{top: 12, bottom: 12, left: 12, right: 12}}>
+            hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+            onPress={() => navigation.navigate(SCREEN.PROFILE_SCREEN as never)}
+          >
             <View
-              style={[
-                styles.avatarCircle,
-                {backgroundColor: colors.white},
-              ]}>
-              <Ionicons
-                name="person-outline"
-                size={24}
-                color={colors.primary}
-              />
+              style={[styles.avatarCircle, { backgroundColor: colors.white }]}
+            >
+              <Text style={[styles.avatarInitials, { color: colors.primary }]}>
+                {initials}
+              </Text>
             </View>
           </TouchableOpacity>
         </View>
@@ -89,7 +112,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  avatarInitials: {
+    fontSize: fonts.font14,
+    fontFamily: fontSemiBold,
+    lineHeight: 24,
+  },
 });
 
 export default DashboardHeader;
-

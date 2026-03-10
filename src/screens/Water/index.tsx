@@ -65,17 +65,15 @@ const WaterScreen = () => {
         <View style={styles.logCard}>
           <Text style={styles.logTitle}>Track Your Glasses</Text>
           <View style={styles.glassesGrid}>
-            {Array.from({length: goalGlasses}).map((_, idx) => {
+            {Array.from({ length: goalGlasses }).map((_, idx) => {
               const isFilled = idx < glassesCount;
               return (
                 <TouchableOpacity
                   key={idx}
                   activeOpacity={0.8}
                   onPress={() => setGlassesCount(idx + 1)}
-                  style={[
-                    styles.glassTile,
-                    isFilled && styles.glassTileFilled,
-                  ]}>
+                  style={[styles.glassTile, isFilled && styles.glassTileFilled]}
+                >
                   <Ionicons
                     name="water-outline"
                     size={26}
@@ -119,9 +117,7 @@ const WaterScreen = () => {
           </View>
           <View style={styles.tipRow}>
             <Text style={styles.tipIcon}>🍋</Text>
-            <Text style={styles.tipText}>
-              Add lemon or cucumber for flavor
-            </Text>
+            <Text style={styles.tipText}>Add lemon or cucumber for flavor</Text>
           </View>
           <View style={styles.tipRow}>
             <Text style={styles.tipIcon}>🏃‍♀️</Text>

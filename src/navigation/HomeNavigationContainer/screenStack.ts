@@ -22,7 +22,9 @@ export const DrawerStack: StackScreenConfig[] = [
 ];
 
 // Stack-only Screens - All other screens that are not in BottomTabStack or DrawerStack
-export const StackStack: StackScreenConfig[] = [];
+export const StackStack: StackScreenConfig[] = [
+  {name: SCREEN.PROFILE_SCREEN, component: Screens.ProfileScreen},
+];
 
 // Legacy export for backward compatibility
 const HomeScreenStack = BottomTabStack;

@@ -21,6 +21,8 @@ import countryCodes from '../../data/countryCodes.json';
 import {useTheme} from '../../utils/themeProvider';
 import {showToast} from '../../utils/toastConfig';
 import {signupValidationSchema} from '../../utils/validation';
+import {useAppDispatch} from '../../hooks/reduxHooks';
+import {setUserInfo} from '../../store/features/auth/auth';
 import CountryPickerModal from '../Login/CountryPickerModal';
 import createStyles from './styles';
 
@@ -28,6 +30,7 @@ const SignupScreen = () => {
   const {colors} = useTheme();
   const styles = createStyles(colors);
   const navigation = useNavigation<any>();
+  const dispatch = useAppDispatch();
 
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -83,6 +86,21 @@ const SignupScreen = () => {
       if (firstError) showToast({message: firstError, position: 'top'});
       return;
     }
+
+    const trimmedFirst = firstName.trim();
+    const trimmedLast = lastName.trim();
+
+    dispatch(
+      setUserInfo({
+        userInfo: {
+          firstName: trimmedFirst,
+          lastName: trimmedLast,
+          email: email.trim(),
+          phone: phone.replace(/\D/g, ''),
+        },
+      }),
+    );
+
     showToast({message: 'Account created successfully', position: 'top'});
     navigation.navigate(SCREEN.LOGIN_SCREEN as never);
   };

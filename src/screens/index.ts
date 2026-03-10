@@ -10,3 +10,4 @@ export { default as StepsScreen } from './Steps';
 export { default as WaterScreen } from './Water';
 export { default as MealsScreen } from './Meals';
 export { default as RanksScreen } from './Ranks';
+export { default as ProfileScreen } from './Profile';

@@ -6,6 +6,7 @@ export default {
   WATER_SCREEN: 'Water',
   MEALS_SCREEN: 'Meals',
   RANKS_SCREEN: 'Ranks',
+  PROFILE_SCREEN: 'Profile',
   LOGIN_SCREEN: 'LoginScreen',
   SIGN_UP: 'SignUp',
   RESET_PASSWORD: 'ResetPassword',
